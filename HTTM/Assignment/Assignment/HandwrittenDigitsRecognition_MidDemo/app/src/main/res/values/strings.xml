@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Digit Recognition</string>
+    <string name="clear_button_text">CLEAR</string>
+    <string name="prediction_text_placeholder">Prediction</string>
+</resources>

@@ -1,0 +1,29 @@
+Thưa thầy, nhóm em là nhóm 6. Và bây giờ nhóm em sẽ trình bày các chức năng chính của sản phẩm cuối cùng trong BTL môn HTTM.
+
+Đề tài nhóm em chọn là Nhận dạng chữ số viết tay, với kỹ thuật AI sử dụng là CNN.
+
+So với ứng dụng demo, chỉ hiển thị số được dự đoán. Thì lần này, nhóm em đã bổ sung thêm phần đồ thị. Khi ta vẽ 1 con số, đồ thị sẽ thể hiện kết quả nhận dạng của số đó, dưới dạng %. Tỉ lệ của số nào cao nhất thì sẽ là output của lần dự đoán.
+
+Bây giờ em sẽ tiến hành chạy thử chương trình.
+
+Em sẽ vẽ số 1, bấm Classify Digit. Thì hệ thống nhận dạng được số 1 với tỉ lệ là 99%, và Output hiện ra số 1.
+
+Ta thử số 2, ứng dụng nhận được số 2 với tỉ lệ là 100%.
+
+Ta thử số 3, ứng dụng nhận được số 3 với tỉ lệ là 100%.
+
+Ta sẽ thử số 4, với nhiều nét hơn, output là số 4 với tỉ lệ 100%.
+
+Ta thử số 5, output là số 5, tỉ lệ là 100%.
+
+Ta thử số 6,7,8 …
+Cuối cùng ta sẽ thử số 9, tỉ lệ …
+
+Ở đây, em đã viết 1 dòng chú ý rằng “Hãy sẽ số to nhất có thể, và vẽ ở chính giữa màn hình”. Khi đó thì kết quả dự đoán mới được tốt nhất.
+Em sẽ thử TH vẽ số nhỏ, và nằm ở góc. Thì kết quả sẽ không còn chính xác nữa.
+
+Trong TH người dùng vẽ xấu, vẽ số lệch, vẽ nguệch ngoạc thì hệ thống cũng sẽ không nhận dạng được đúng.
+
+Cuối cùng, em rút ra được kết luận rằng Ứng dụng nhận dạng chữ viết tay độ chính xác sẽ phụ thuộc vào rất nhiều cách người dùng vẽ. Nếu người dùng viết rõ ràng -> chính xác. Nếu viết nguệch ngoạc, nét dính sát nhau -> ko chính xác.
+
+Ngoài ra còn phụ thuộc vào tập dữ liệu, nếu tập dữ liệu có càng nhiều chữ số viết tay với nhiều nét viết khác nhau thì hệ thống sẽ học được và đưa ra KQ chính xác hơn.
